@@ -1,9 +1,6 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-import { App } from "./components/App";
+import AppTemplate from "./templates/AppTemplate";
 
-ReactDOM.render(
-    <App/>,
-    document.getElementById("example")
-);
+ReactDOM.render(<AppTemplate />, document.getElementById("example"));
