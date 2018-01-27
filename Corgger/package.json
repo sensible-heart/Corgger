@@ -1,0 +1,8 @@
+{
+  "name": "corgger",
+  "version": "0.0.1",
+  "description": "Frogger redone with an adorable corgi",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
