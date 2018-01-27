@@ -2,6 +2,7 @@ import * as React from "react";
 
 // App Controller that handles of the functionality of the main App View
 export default class App extends React.Component {
+	canvas: HTMLCanvasElement;
 	screen: any;
 
 	constructor() {
