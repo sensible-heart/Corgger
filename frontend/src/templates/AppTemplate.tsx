@@ -9,8 +9,9 @@ export default class AppTemplate extends App {
 				<h1>Get ready for corgs!</h1>
 				<canvas
 					ref={ref => (this.canvas = ref)}
-					width={this.screen.width * this.screen.ratio}
-					height={this.screen.height * this.screen.ratio}
+					id="myCanvas"
+					width={300}
+					height={500}
 				/>
 			</div>
 		);
